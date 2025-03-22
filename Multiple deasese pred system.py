@@ -10,6 +10,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 
+
 # loading the saved models
 
 diabetes_model = pickle.load(open("C:/Users/HP/Documents/Multiple deasese pred/diabetes_model.sav", 'rb'))
